@@ -1,0 +1,11 @@
+<div>
+    <h1 id="app"></h1>
+    <ui-asset id="prefab" droppable="cc.Prefab"
+    @change="onChange($event.target.value)">生成预制体</ui-asset>
+    <ui-asset id="front" droppable="cc.SpriteFrame"
+    @change="onChange($event.target.value)">前图片</ui-asset>
+    <ui-asset id="back" droppable="cc.SpriteFrame"
+    @change="onChange($event.target.value)">后图片</ui-asset>
+    <ui-button id="create" @confirm="onConfirm">生成</ui-button>
+</div>
+

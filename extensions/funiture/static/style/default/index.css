@@ -1,0 +1,26 @@
+#app {
+    color: var(--color-normal-contrast-weakest);
+    margin: auto;
+    width: 180px;
+}
+#prefab {
+    /* color: var(--color-normal-contrast-weakest); */
+    margin: auto;
+    width: 80%;
+}
+#front {
+    /* color: var(--color-normal-contrast-weakest); */
+    margin: auto;
+    width: 80%;
+}
+#back {
+    /* color: var(--color-normal-contrast-weakest); */
+    margin: auto;
+    width: 80%;
+}
+
+#create {
+    /* color: var(--color-normal-contrast-weakest); */
+    margin: auto;
+    width: 80%;
+}
